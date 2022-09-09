@@ -3,7 +3,7 @@ layout: page
 title: contact
 ---
 
-Please find the following info
+Contact me [here](sqhy2@cam.ac.uk)
 
 <br><br>
 

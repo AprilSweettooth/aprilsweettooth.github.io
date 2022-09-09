@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<!-- This layout displays student projects from the _projects folder, showing any projects tagged with display-order: 1 in their YAML front matter first. -->
+
+<h1 class="page-title">{{page.title}}</h1>
+
+<hr/>
+
+<p>These are the interns/jobs I did.</p>
+
+{% assign career_list = site.career | reverse %}
+
+<!-- Display projects tagged with display-order: 1 in their YAML front matter. -->
+
+{% for career in career_list %}
+  {% if career.display-order %}
+    {% if career.display-order == 1 %}
+      {% include careerbox.html %}
+      <br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<!-- change following from projects to career -->
+<!-- If you want to specify a project or projects that should be displayed after the first group but before the last, you would comment this code back in and tag the relevant projects with display-order: 2 in their YAML front matter. -->
+
+<!-- {% for project in projects_list %}
+  {% if project.display-order %}
+    {% if project.display-order == 2 %}
+      {% include projectbox.html %}
+      <br>
+    {% endif %}
+  {% endif %}
+{% endfor %} -->
+
+<!-- Display projects with no display order specified in their YAML front matter. -->
+
+{% for career in career_list %}
+  {% unless career.display-order %}
+    {% include careerbox.html %}
+    <br>
+  {% endunless %}
+{% endfor %}

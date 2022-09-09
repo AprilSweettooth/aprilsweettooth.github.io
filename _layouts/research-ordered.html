@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<!-- This layout displays student projects from the _projects folder, showing any projects tagged with display-order: 1 in their YAML front matter first. -->
+
+<h1 class="page-title">{{page.title}}</h1>
+
+<hr/>
+
+<p>These are the researches I did.</p>
+
+{% assign researches_list = site.researches | reverse %}
+
+<!-- Display projects tagged with display-order: 1 in their YAML front matter. -->
+
+{% for research in researches_list %}
+  {% if research.display-order %}
+    {% if research.display-order == 1 %}
+      {% include researchbox.html %}
+      <br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<!-- change following from projects to researches -->
+<!-- If you want to specify a project or projects that should be displayed after the first group but before the last, you would comment this code back in and tag the relevant projects with display-order: 2 in their YAML front matter. -->
+
+<!-- {% for project in projects_list %}
+  {% if project.display-order %}
+    {% if project.display-order == 2 %}
+      {% include projectbox.html %}
+      <br>
+    {% endif %}
+  {% endif %}
+{% endfor %} -->
+
+<!-- Display projects with no display order specified in their YAML front matter. -->
+
+{% for research in researches_list %}
+  {% unless research.display-order %}
+    {% include researchbox.html %}
+    <br>
+  {% endunless %}
+{% endfor %}

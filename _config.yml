@@ -12,7 +12,7 @@ url: 'https://aprilsweettooth.github.io'
 
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
-baseurl: 'https://aprilsweettooth.github.io'
+baseurl: ''
 
 title: Peter Yang's Webware
 
@@ -124,3 +124,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path
+  researches:
+    output: true
+    permalink: /researches/:path
+  career:
+    output: true
+    permalink: /career/:path
