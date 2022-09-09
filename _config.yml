@@ -8,11 +8,11 @@ plugins:
 permalink: pretty
 
 # Setup
-url: 'https://earlynovels.github.io'
+url: 'https://aprilsweettooth.github.io'
 
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
-baseurl: ''
+baseurl: 'https://aprilsweettooth.github.io'
 
 title: Peter Yang's Webware
 
