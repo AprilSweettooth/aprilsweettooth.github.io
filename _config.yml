@@ -14,7 +14,7 @@ url: 'https://earlynovels.github.io'
 # i.e. `http://<username>.github.io`
 baseurl: ''
 
-title: Peter Yang Webware
+title: Peter Yang's Webware
 
 # Pagination
 paginate: 5
@@ -96,7 +96,7 @@ author:
 # google_analytics_id: 'UA-84025722-2'
 
 # Setting a disqus subdomain will enable the comment section
-disqus: peteryang
+disqus: https-aprilsweettooth-github-io-homepage
 
 kramdown:
   math_engine: mathjax
