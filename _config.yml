@@ -44,7 +44,7 @@ author:
   # name:              'Peter Yang'
   #
   #   # This photo will be used in the about section
-  picture: /public/img/ME.png
+  picture: /public/img/ME.JPG
   #   photo:             http://qwtel.com/public/img/flo.jpg
   #   photo2x:           http://qwtel.com/public/img/flo@2x.jpg
   #
@@ -130,3 +130,8 @@ collections:
   career:
     output: true
     permalink: /career/:path
+
+# rbenv shell 2.6.10 to switch ruby version
+# bundle exec jekyll serve to see demo
+# complete each section
+# set small ctf easter eggs
