@@ -1,3 +1,5 @@
+google_analytics: G-WHLTBZWBL3
+
 # Dependencies
 plugins:
   - jekyll-sitemap
@@ -130,6 +132,8 @@ collections:
   career:
     output: true
     permalink: /career/:path
+
+
 
 # rbenv shell 2.6.10 to switch ruby version
 # bundle exec jekyll serve to see demo
