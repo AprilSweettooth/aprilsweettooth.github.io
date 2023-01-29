@@ -1,5 +1,3 @@
-google_analytics: "G-WHLTBZWBL3"
-
 # Dependencies
 plugins:
   - jekyll-sitemap
@@ -95,7 +93,7 @@ author:
     # paypal:          _username_
 
 # Remove to disable Google Anaylics
-# google_analytics_id: 'UA-84025722-2'
+google_analytics_id: "G-WHLTBZWBL3"
 
 # Setting a disqus subdomain will enable the comment section
 disqus: https-aprilsweettooth-github-io-homepage
