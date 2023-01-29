@@ -39,6 +39,9 @@ title: Resource
     - Easy maths module by [Stephen J. Cowley](http://www.damtp.cam.ac.uk/user/sjc1/teaching/)
     - My favourite lecturer and supervisor [Dr.Lester](https://www.hep.phy.cam.ac.uk/~lester/teaching/partIIIparticles/welcome.html)
 
+- Engineering at Cambridge
+    - cued_moodle_access
+
 - Bed time reading
     - Fields theory [WARREN SIEGEL](http://insti.physics.sunysb.edu/~siegel/)
     - Excellent book on [Quantum Theory, Groups and Representations](https://www.math.columbia.edu/~woit/QM/qmbook.pdf)
