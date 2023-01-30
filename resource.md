@@ -46,8 +46,7 @@ title: Resource
     - QC at CMU by [Ryan O'Donnell](https://www.cs.cmu.edu/~odonnell/quantum18/)
     - Quantum Algorithm [Zoo](https://quantumalgorithmzoo.org/)
     - QC at Cornell by [Mermin](https://mermin.lassp.cornell.edu/qcomp/CS483.html)
-    - QC at Caltech by [Preskill](http://theory.caltech.edu/~preskill/ph229/#lecture)
-    - 
+    - QC at Caltech by [Preskill](http://theory.caltech.edu/~preskill/ph229/#lecture) 
 
 - Bed time reading
     - Fields theory [WARREN SIEGEL](http://insti.physics.sunysb.edu/~siegel/)
