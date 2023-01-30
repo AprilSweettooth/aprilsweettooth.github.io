@@ -5,7 +5,7 @@ title: Resource
 
 ## Resources
 
-- PartII physicists pretend to be a Mathmos:
+- PartII physicist pretends to be a Mathmo:
     - Electrodynamics taught in a more fundamental way by [Dr.Adhikari]({{ site.url }}/public/assets/notes/electro.pdf)
     - Statistical field theory by [Dr.ChristopherThomas]({{ site.url }}/public/assets/notes/sft.pdf), good for TP1 and thermostatistcs course
     - Symmetries, Fields and Particles by [Dr.MatthewWingate]({{ site.url }}/public/assets/notes/sfp.pdf) needs some maths intuitions
@@ -42,6 +42,13 @@ title: Resource
 - Engineering at Cambridge
     - cued_moodle_access
 
+- Quantum Computing
+    - QC at CMU by [Ryan O'Donnell](https://www.cs.cmu.edu/~odonnell/quantum18/)
+    - Quantum Algorithm [Zoo](https://quantumalgorithmzoo.org/)
+    - QC at Cornell by [Mermin](https://mermin.lassp.cornell.edu/qcomp/CS483.html)
+    - QC at Caltech by [Preskill](http://theory.caltech.edu/~preskill/ph229/#lecture)
+    - 
+
 - Bed time reading
     - Fields theory [WARREN SIEGEL](http://insti.physics.sunysb.edu/~siegel/)
     - Excellent book on [Quantum Theory, Groups and Representations](https://www.math.columbia.edu/~woit/QM/qmbook.pdf)
@@ -54,3 +61,4 @@ title: Resource
     - [quantum frontiers](https://quantumfrontiers.com/)
     - [Not even wrong](http://www.math.columbia.edu/~woit/wordpress/)
     - My favourite quantum computing blogs [Shtetl-Optimized](https://scottaaronson.blog/)
+    - Quantum computing starting point by [Michael Nielsen](https://quantum.country/)
