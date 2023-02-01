@@ -50,7 +50,7 @@ title: Resource
 
 - Bed time reading
     - Fields theory [WARREN SIEGEL](http://insti.physics.sunysb.edu/~siegel/)
-    - Excellent book on [Quantum Theory, Groups and Representations](https://www.math.columbia.edu/~woit/QM/qmbook.pdf)
+    - Excellent book on [Quantum Theory, Groups and Representations](https://www.math.columbia.edu/~woit/QM/qmbook.pdf) with self-explanatory diagrams
     - Famous [Landau books](https://archive.org/details/landau-and-lifshitz-physics-textbooks-series/Vol%201%20-%20Landau%2C%20Lifshitz%20-%20Mechanics%20%283rd%20ed%2C%201976%29/)
     - The story-teller [sean carroll](https://www.preposterousuniverse.com/grnotes/)
     - Good read on topological quantum computing by [Steven H. Simon](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/)
@@ -61,3 +61,4 @@ title: Resource
     - [Not even wrong](http://www.math.columbia.edu/~woit/wordpress/)
     - My favourite quantum computing blogs [Shtetl-Optimized](https://scottaaronson.blog/)
     - Quantum computing starting point by [Michael Nielsen](https://quantum.country/)
+    - How to become a GOOD Theoretical Physicist [Gerard 't Hooft](https://webspace.science.uu.nl/~gadda001/goodtheorist/index.html)
