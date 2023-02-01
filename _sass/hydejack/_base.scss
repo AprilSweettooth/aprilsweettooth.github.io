@@ -48,6 +48,7 @@ body::before {
 }
 
 body, main {
-  position: relative;
+  // position: relative;
+  position: sticky;
   overflow-x: hidden;
 }
