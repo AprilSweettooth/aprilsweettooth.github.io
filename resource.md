@@ -9,7 +9,7 @@ title: Resource
     - Electrodynamics taught in a more fundamental way by [Dr.Adhikari]({{ site.url }}/public/assets/notes/electro.pdf)
     - Statistical field theory by [Dr.ChristopherThomas]({{ site.url }}/public/assets/notes/sft.pdf), good for TP1 and thermostatistcs course
     - Symmetries, Fields and Particles by [Dr.MatthewWingate]({{ site.url }}/public/assets/notes/sfp.pdf) needs some maths intuitions
-    - Funniest lecturer on Fluid dynamics [Prof.EricLauga]({{ site.url }}/public/assets/notes/fluid.pdf)
+    - Funniest lecturer on Fluid dynamics [Prof.EricLauga]({{ site.url }}/public/assets/notes/fluid.pdf) (very useful for PartII physics AFD&SCM)
     - Dr Christopher Lester's particle physics, it's a [show](https://www.hep.phy.cam.ac.uk/~lester/teaching/partIIIparticles/welcome.html)
     - Supersymmetry and Duality by [Prof.DavidTong]({{ site.url }}/public/assets/notes/susy.pdf) where the beauty of physics presented
     - Topological Quantum Matter Prof.B.Beri, Steven's book (below) explains everything

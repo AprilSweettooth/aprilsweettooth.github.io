@@ -21,7 +21,7 @@ title: Education
     * Theory: TP2 (quantum fields)
     * Experiment E1 (particle track)
     * Research Review (quantum dots)
-    * Computational project (ising model)
+    * Computational project ([Lenia](https://github.com/AprilSweettooth/PartII-Computing-Project))
   - Concepts in Physics
   - Topics in Astrophysics
 
@@ -32,7 +32,7 @@ title: Education
     * Waves and Optics
     * Mathematical Methods
     * Quantum Physics
-    * Condensed Matter Physics)
+    * Condensed Matter Physics
   - Physics-B:
     * Electromagnetism
     * Classical Dynamics
