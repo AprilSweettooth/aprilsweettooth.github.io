@@ -6,7 +6,7 @@ title: Education
 # University of Cambridge 2020-2023
 
 ## Natural Sciences
-- Third year: 
+- Third year (First Class top 20%): 
   - core:
     * Thermal and Statistical Physics 
     * Relativity
@@ -20,7 +20,7 @@ title: Education
     * Theory: TP1 (classical fields)
     * Theory: TP2 (quantum fields)
     * Experiment E1 (particle track)
-    * Research Review (quantum dots)
+    * Research Review ([quantum dots](https://aprilsweettooth.github.io/projects/2023-05-01-quantum-dot))
     * Computational project ([Lenia](https://github.com/AprilSweettooth/PartII-Computing-Project))
   - Concepts in Physics
   - Topics in Astrophysics
