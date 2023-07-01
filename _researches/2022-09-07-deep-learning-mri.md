@@ -8,7 +8,7 @@ display-order: 1
 description: >
 ---
 
-Advisor: Prof. Chris Rogers (Fellow of Peterhouse,
+Supervisor: Prof. Chris Rogers (Fellow of Peterhouse,
 Department of Clinical Neurosciences)
 
 **Use of deep learning to accelerate parallel transmit pulse design**

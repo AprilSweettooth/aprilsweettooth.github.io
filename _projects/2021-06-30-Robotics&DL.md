@@ -10,7 +10,7 @@ description: >
 
 # Mini-bot Competition
 
-![](/public/img/cur.png)
+![](/public/img/cur.jpeg)
 
 Teamwork to design a robot to compete for blocks pick-ups in an arena. 
 
@@ -20,7 +20,7 @@ Teamwork to design a robot to compete for blocks pick-ups in an arena.
 
 Watch the competition recording!
 
-<video autoplay loop muted playsinline>
+<video muted playsinline>
   <source src="/public/video/mini_bot.mp4" type="video/mp4">
 </video>
 
@@ -32,7 +32,7 @@ Watch the competition recording!
 - use ROS to create a custom message of different joint angle and send them as service to control the robot
 - body part detection with webcam
 
-See the official ![website](https://curobotics.soc.srcf.net/projects/inmoov-humanoid/)
+See the official [website](https://curobotics.soc.srcf.net/projects/inmoov-humanoid/)
 
 # Computer! Sort Out my PDF
 
