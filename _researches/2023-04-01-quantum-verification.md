@@ -8,7 +8,7 @@ display-order: 1
 description: >
 ---
 
-Advisor: Dr. Sergii Strelchuk
+Advisor: Dr. Sergii Strelchuk (DAMTP)
 
 # Introduction
 Richard Feynmann once famously said, 'Nature isn't classical, dammit, and if you want to make a simulation of nature, you'd better make it quantum mechanical, and by golly it's a wonderful problem, because it doesn't look so easy'. Ever since then, quantum computation based applications have been brought into the limelight and various platforms such as quantum dots, ensembles of trapped ions, photonic systems and superconducting circuits have been studied to achieve the physical realization of a quantum computer. It is widely recognized that some quantum algorithms can be exponentially more efficient at problem solving compared to classical ones. But despite decades of research in the field, we are still far from building a complete quantum computer that could solve 'interesting' algorithms and satisfies DiVincenzo's criteria. Scalability is a major obstacle from an engineering prospective while decoherence, e.g. leaking information to the environment and errors in computation put a fundamental question in the theoretical field. Without error correction, accumulated noise will disturb the system and ruin the results. Apart from that, quantum computing relies on unitary operations and it is made from extremely small components, so quantum states are more susceptible to more types of errors than classical computers. Therefore, we are in need of a fault tolerant scheme.
@@ -22,14 +22,14 @@ In the next section, several error correction algorithms will be introduced. And
 
 To achieve a state-of-art fault tolerance computation, we need to start simple. So let's first have a brief review on problems we might have when applying the classical algorithm on quantum computation.
 
-![](/publc/img/veri_img/correction.png)
+![](/public/img/veri_img/correction.png)
 
 A straightforward method for recovering information after errors have occurred involves making at least three copies and using majority voting. This is known as repetition code. However, this approach is not suitable for quantum computers due to several reasons. Firstly, it's impossible to clone unknown quantum states. Secondly, taking a majority vote requires learning the encoded information through measurement, which destroys quantum coherence. Finally, binary information only needs to consider one type of error, bit flip, while quantum states are susceptible to a wide range of possible errors.
 
 ## CSS code
 Fortunately, Shor and Steane discovered a solution to these challenges. Instead of copying information to introduce redundancy, they used entangled states supported by additional bits. To avoid collapse of quantum information during error correction, they made a partial measurement that extracted only the error information (syndrome) and left the encoded state untouched. To handle the continuum of possible errors, they recognized that every error could be represented as a linear combination of standard errors, including no error, bit flip, sign flip, or both. Furthermore, they found that linear combinations of correctable errors could also be corrected, enabling the discretization of error possibilities.
 
-![](/publc/img/veri_img/shor.png)
+![](/public/img/veri_img/shor.png)
 
 This is called CSS codes. The foundation of this quantum error correction is built upon two main observations. Firstly, any fault or quantum operation on a qubit can be expressed as a linear combination of four fundamental operations: the identity (no error), a bit flip ($\ket{0} \xrightarrow{} \ket{1}$), a phase flip $(\ket{0} \xrightarrow{} \ket{0}, \ket{1} \xrightarrow{} -\ket{1}$), or a combination of both bit and phase flips. Bennett et al. initially proved that it is sufficient to correct only these four types of errors. To correct bit flips, one can use similar methods to classical error-correcting codes. To correct phase flips, another observation comes in handy: a phase flip is equivalent to a bit flip in the Fourier transformed basis. Therefore, one can first correct bit flips in the original basis, then correct bit flips in the Fourier transformed basis, which translates to correcting phase flips in the original basis. 
 
@@ -55,7 +55,7 @@ Adversarial error models are frequently used to limit error models with complica
 
 With all that said, we cannot ignore one crucial aspect, quantum error-correcting code (QECC), and one of the most popular choices is the stabilizer code. Mathematically speaking, these code consists of operations called Pauli operators. And it belongs to the larger Clifford group which has some very interesting conserving properties. 
 
-![](/publc/img/veri_img/pauli.png)
+![](/public/img/veri_img/pauli.png)
 
 This type of QECC encodes k logical qubits into n physical qubits, forming a subspace of ($\mathit{\mathbb{C}}2)^{\bigotimes n}$ with a dimension of 2k. The stabilizer formalism, developed by Gottesman, allows codes to be described as the kernel of a linear operator, just as in classical coding theory.
 
@@ -67,7 +67,7 @@ However, even with good error model and QECC there is still a loophole in our as
 
 Thus entering the threshold theorem. 
 
-![](/publc/img/veri_img/surface.png)
+![](/public/img/veri_img/surface.png)
 
 # Threshold theorem
 
@@ -91,7 +91,7 @@ We might consider another class of codes which can be arranged non-locally in 2D
 
 The basic idea behind concatenation is to reduce the error rate of a quantum channel by breaking it down into several smaller channels, each with a lower error rate. The individual quantum codes, also known as inner codes, are designed to correct errors that occur within each smaller channel. The resulting larger code, also known as an outer code, can then correct errors that occur across multiple smaller channels. For instance, a common method of concatenation involves using a simple error-correcting code, such as the three-qubit bit-flip code or the five-qubit code, as the inner code. This inner code is then concatenated multiple times, with additional error-correction steps applied to the resulting larger code. The outer code can be a stabilizer code, such as the nine-qubit code, or any other suitable code.
 
-![](/publc/img/veri_img/con.png)
+![](/public/img/veri_img/con.png)
 
 
 Concatenation can significantly improve the overall error-correcting capability of a quantum code, as the error rate decreases exponentially with the number of concatenated codes. However, this comes at the cost of increased computational complexity and the need for more qubits.
@@ -106,7 +106,7 @@ In quantum expander codes, the qubits of the code are arranged in a two-dimensio
 
 One of the key advantages of quantum expander codes is their ability to protect against both bit-flip and phase-flip errors using a single set of stabilizer generators. This is achieved by using a special type of measurement, called a "parity check" measurement, which detects both types of errors simultaneously. To correct errors, the code uses a technique known as "flag flipping," which involves flipping the values of certain qubits to correct the errors detected by the stabilizer generators. This is followed by a process of "syndrome decoding," which uses the measurement outcomes from the stabilizer generators to determine which qubits need to be flipped.
 
-![](/publc/img/veri_img/ex.png)
+![](/public/img/veri_img/ex.png)
 
 But again, the downside is that, measuring the syndrome is simple in the sense that one needs to act on a small number of qubits, but the qubits will in general not be geometrically local.
 
