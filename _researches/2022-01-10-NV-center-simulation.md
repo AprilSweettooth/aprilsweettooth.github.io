@@ -13,7 +13,9 @@ Royal Society University Research Fellow, Cavendish)
 
 # Simulations on NV centers
 
-Some of the code were inspired by https://github.com/lukastk/nv-centre-spectrum-simulator and https://github.com/sashankkaushik/qutip_NV_Dynamics
+Some of the code were inspired by 
+- https://github.com/lukastk/nv-centre-spectrum-simulator 
+- https://github.com/sashankkaushik/qutip_NV_Dynamics
 
 # NV center simulation
 Negatively charged nitrogen-vacancy centers (NV) in diamond have emerged as promising platforms for quantum
