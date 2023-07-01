@@ -52,3 +52,5 @@ represent pages and links to represent their order) (article & code source not p
 - Validate and evaluate tf2 object detection model for the robot and fine-tuning
 
 - Generate new dataset for training with a python generator
+
+see the progress at the [start-up](https://www.fabrica.ai/)

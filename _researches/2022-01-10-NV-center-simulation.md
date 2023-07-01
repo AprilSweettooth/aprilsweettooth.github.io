@@ -15,11 +15,11 @@ Royal Society University Research Fellow, Cavendish)
 
 Some of the code were inspired by https://github.com/lukastk/nv-centre-spectrum-simulator and https://github.com/sashankkaushik/qutip_NV_Dynamics
 
-# NV_center_simulation
+# NV center simulation
 Negatively charged nitrogen-vacancy centers (NV) in diamond have emerged as promising platforms for quantum
 information processing and for a wide range of applications
 in quantum sensing [1]. NV centers with long spin coherence make it an
-excellent candidate for quantum technologies. Many experiments have been conducted [2] to measure the dephasing 
+excellent candidate for quantum technologies. Many experiments have been conducted to measure the dephasing 
 time T2 and how to enhance it in the NV system. This code repo is used to simulate the physical situation and make comparison
 with the real data to help improve the technique.
 
@@ -80,7 +80,7 @@ for example, in matrix form
 
 $\sigma_1(x) \otimes \sigma_2(y)$ = $\begin{pmatrix} 0 & \sigma_y \\ \sigma_y & 0 \end{pmatrix}$ = $\begin{pmatrix} 0 & 0 & 0 & i \\ 0 & 0 & -i & 0 \\ 0  & i & 0 & 0 \\ -i & 0 & 0 & 0 \end{pmatrix}$
 
-What we eventually want is quantum control over different states. This leads to the introduction to *rabi oscillation*[2].
+What we eventually want is quantum control over different states. This leads to the introduction to *rabi oscillation* [2].
 
 Rabi oscillation is a phenomenon that occurs in quantum systems when they are subjected to an oscillating electromagnetic field at a resonant frequency. It is named after physicist Isidor Rabi, who first observed this effect in the 1930s.
 
@@ -149,7 +149,7 @@ $$
 
 where $\Delta(t)$ is detuning and $\omega_R$ Rabi frequency. By changing the pulse duration we can get different quantum states (gates).
 
-Another way to simplify rabi simulation is to consider the Interaction Picture and Rotation Wave Approximation(RWA)[3]
+Another way to simplify rabi simulation is to consider the Interaction Picture and Rotation Wave Approximation (RWA) [3]
 
 ![](/public/img/NV_img/rwa.png)
 

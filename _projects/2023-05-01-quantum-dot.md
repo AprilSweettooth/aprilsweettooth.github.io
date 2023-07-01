@@ -62,9 +62,9 @@ $$\begin{equation}
 \end{equation}
 $$
 
-To achieve entanglement, two conditions must be met: the intermediate exciton states should be degenerate, and the final state of the quantum dot (QD) must be unaffected by the decay path. Suppression of Fine Structure Splitting (FSS) is crucial as it allows the biexciton to decay into two bright excitons with opposite circular polarizations. In order to generate an entangled pair of excitons, the FSS value must be smaller than the exciton linewidth to ensure that the decay process is indistinguishable. The state of art fidelity of entanglement generation has already exceeded 97\%.
+To achieve entanglement, two conditions must be met: the intermediate exciton states should be degenerate, and the final state of the quantum dot (QD) must be unaffected by the decay path. Suppression of Fine Structure Splitting (FSS) is crucial as it allows the biexciton to decay into two bright excitons with opposite circular polarizations. In order to generate an entangled pair of excitons, the FSS value must be smaller than the exciton linewidth to ensure that the decay process is indistinguishable. The state of art fidelity of entanglement generation has already exceeded 97%.
 
-![](/public/img/qd_img/img/intensity _ex.png)
+![](/public/img/qd_img/img/intensity_ex.png)
 
 # Photonic Structure
 ## Cavity
