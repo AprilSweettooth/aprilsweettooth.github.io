@@ -3,4 +3,6 @@ layout: page
 title: Papers
 ---
 
-## I haven't published any work yet.
+## List of work:
+
+- [Hamiltonian Simulation](https://arxiv.org/abs/2309.14378)

@@ -3,10 +3,30 @@ layout: page
 title: Education
 ---
 
+# University of Cambridge 2023-2024
+
+## Physics, Master of Sciences
+- First Class:
+  - Major topic: 
+    * Advanced Quantum Condensed Matter Physics
+    * Atomic and Optical Physics
+    * Quantum Condensed Matter Field Theory
+  - Minor topic: 
+    * Phase Transitions
+    * Physics of Nanoelectronic Systems
+    * Quantum Information
+    * Quantum Simulation
+  - Mathematics
+    * Quantum Field Theory
+    * Topological Quantum Matter
+    * Advanced Quantum Field Theory
+  - Project
+    * Quantum information/imaging: [superresolution](https://aprilsweettooth.github.io/projects/2024-07-01-Quantum-Superresolution)
+
 # University of Cambridge 2020-2023
 
-## Natural Sciences
-- Third year (First Class top 20%): 
+## Natural Sciences, Bachelor of Arts
+- Third year (First Class): 
   - core:
     * Thermal and Statistical Physics 
     * Relativity
