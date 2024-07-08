@@ -21,7 +21,7 @@ title: Education
     * Topological Quantum Matter
     * Advanced Quantum Field Theory
   - Project
-    * Quantum information/imaging: [superresolution](https://aprilsweettooth.github.io/research/2024-07-01-Quantum-Superresolution)
+    * Quantum information/imaging: [superresolution](https://aprilsweettooth.github.io/researches/2024-07-01-Quantum-Superresolution)
 
 # University of Cambridge 2020-2023
 
